@@ -21,10 +21,10 @@ body{
   font-size: 30px;
   text-align: center;
 }
-#logo{
+.logo{
   float:left;
 }
-#banner{
+.banner{
   font-size:14px;
   border-image: 1px ;
   float:left;
@@ -103,12 +103,8 @@ a{
 
   background-image: url(../img/footer_bg.png);
   font-size:14px;
+  color: white;
   grid-column: 1 / span 4;
   grid-row: 7;
   text-align: center;
-}
-.text{
-  font-size:14px;
-  text-align: center;
-  text-decoration: ;
 }
