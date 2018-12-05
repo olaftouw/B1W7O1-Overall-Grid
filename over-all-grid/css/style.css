@@ -7,7 +7,7 @@ body{
   font-size:14px;
   margin:  0 auto;
   display: grid;
-  grid-template-columns: auto auto auto auto   ;
+  grid-template-columns: auto auto auto   ;
   grid-gap: 5px;
   width: 1160px;
   background-color: white;
@@ -15,7 +15,7 @@ body{
 }
 .grid-item {
   list-style: none;
-  background-color: white;
+  /*background-color: white;*/
   font-size:14px;
   padding: 20px;
   font-size: 30px;
@@ -37,8 +37,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
-   
+  grid-column: 2 / 4;
+  grid-row: 1;  
 }
 li {
   float: left;
@@ -64,15 +64,15 @@ a{
   font-size: 12px;
   color: white;
   background-image: url(../img/banner_bg.png);
-  grid-column: 1 / span 4;
-  grid-row: 2 / span 4;
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
 }
 .navbar{
   font-size:14px;
   padding:7px;
   background-image: url(../img/header_bg.png);
   background-color: white; 
-  grid-column: 1 / span 4;
+  grid-column: 1 / 4;
   grid-row: 1;
 }
 .main1{
@@ -81,7 +81,7 @@ a{
   font-position:center;
   font-size:14px;
   grid-column: 1;
-  grid-row: 6;
+  grid-row: 4;
 }
 
 .main2{
@@ -89,7 +89,7 @@ a{
   width: 305px;
   font-size:14px;
   grid-column: 2;
-  grid-row: 6;
+  grid-row: 4;
 }
 
 .main3{
@@ -97,14 +97,13 @@ a{
   width: 305px;
   font-size:14px;
   grid-column: 3;
-  grid-row: 6;
+  grid-row: 4;
 }
 .footer {
-
   background-image: url(../img/footer_bg.png);
   font-size:14px;
   color: white;
-  grid-column: 1 / span 4;
-  grid-row: 7;
+  grid-column: 1 / 4;
+  grid-row: 5;
   text-align: center;
 }
